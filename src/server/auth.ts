@@ -1,5 +1,4 @@
 import { type GetServerSidePropsContext } from "next";
-import { supabase } from "~/lib/supabase";
 import { createServerSideClient } from "~/lib/supabase-server";
 
 /**
